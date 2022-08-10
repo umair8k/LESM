@@ -1,0 +1,50 @@
+2022-08-10 10:09:12.757  INFO 7696 --- [restartedMain] ls.lesm.LesmStatusMonitorApplication     : Starting LesmStatusMonitorApplication using Java 15.0.2 on DESKTOP-PPOR226 with PID 7696 (C:\Users\Umair\git\LESM-Lancesoft-Employee-Status-Monitor2\LESM-Status-Monitor\target\classes started by Umer in C:\Users\Umair\git\LESM-Lancesoft-Employee-Status-Monitor2\LESM-Status-Monitor)
+2022-08-10 10:09:12.761  INFO 7696 --- [restartedMain] ls.lesm.LesmStatusMonitorApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-08-10 10:09:12.809  INFO 7696 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-10 10:09:12.809  INFO 7696 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-10 10:09:13.674  INFO 7696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-08-10 10:09:13.766  INFO 7696 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 16 JPA repository interfaces.
+2022-08-10 10:09:15.469  INFO 7696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2022 (http)
+2022-08-10 10:09:15.911  INFO 7696 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-10 10:09:15.911  INFO 7696 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-08-10 10:09:16.299  INFO 7696 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-10 10:09:16.300  INFO 7696 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3490 ms
+2022-08-10 10:09:22.858  INFO 7696 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-08-10 10:09:40.292  INFO 7696 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-08-10 10:09:43.500  INFO 7696 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-08-10 10:09:43.612  INFO 7696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-08-10 10:09:43.939  INFO 7696 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-08-10 10:09:43.958  INFO 7696 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-08-10 10:09:44.999  INFO 7696 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-08-10 10:09:45.016  INFO 7696 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-08-10 10:09:45.350  WARN 7696 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-08-10 10:09:46.183  INFO 7696 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-08-10 10:09:46.340  INFO 7696 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2da3cf19, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@560b9216, org.springframework.security.web.context.SecurityContextPersistenceFilter@62d0fdfb, org.springframework.security.web.header.HeaderWriterFilter@5e942192, org.springframework.security.web.authentication.logout.LogoutFilter@5d09b319, ls.lesm.securityconfig.JwtAuthenticationFilter@16237b2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52694eff, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@365432f8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1ba2549c, org.springframework.security.web.session.SessionManagementFilter@196ef28e, org.springframework.security.web.access.ExceptionTranslationFilter@595c2da8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@54394fdc]
+2022-08-10 10:09:46.469  INFO 7696 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-08-10 10:09:46.692  INFO 7696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2022 (http) with context path ''
+2022-08-10 10:09:46.693  INFO 7696 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-08-10 10:09:46.709  INFO 7696 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-08-10 10:09:46.732  INFO 7696 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-08-10 10:09:47.134  INFO 7696 --- [restartedMain] ls.lesm.LesmStatusMonitorApplication     : Started LesmStatusMonitorApplication in 34.775 seconds (JVM running for 35.499)
+2022-08-10 10:32:07.538  INFO 7696 --- [http-nio-2022-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-10 10:32:07.539  INFO 7696 --- [http-nio-2022-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-10 10:32:07.540  INFO 7696 --- [http-nio-2022-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-10 10:32:07.616  INFO 7696 --- [http-nio-2022-exec-2] ls.lesm.restcontroller.AuthController    : Enterd into generateToken method
+2022-08-10 10:32:07.693  INFO 7696 --- [http-nio-2022-exec-2] l.l.service.impl.UserDetailsServiceImpl  : Enterd into loadUserByUsername method
+2022-08-10 10:32:07.873  INFO 7696 --- [http-nio-2022-exec-2] l.l.service.impl.UserDetailsServiceImpl  : Enterd into loadUserByUsername method
+2022-08-10 10:32:08.667  INFO 7696 --- [http-nio-2022-exec-5] l.l.service.impl.UserDetailsServiceImpl  : Enterd into loadUserByUsername method
+2022-08-10 10:32:08.702  INFO 7696 --- [http-nio-2022-exec-6] l.l.service.impl.UserDetailsServiceImpl  : Enterd into loadUserByUsername method
+2022-08-10 10:32:22.112  INFO 7696 --- [http-nio-2022-exec-1] l.l.service.impl.UserDetailsServiceImpl  : Enterd into loadUserByUsername method
+2022-08-10 10:32:22.138  INFO 7696 --- [http-nio-2022-exec-2] l.l.service.impl.UserDetailsServiceImpl  : Enterd into loadUserByUsername method
+2022-08-10 10:32:24.453  INFO 7696 --- [http-nio-2022-exec-5] l.l.service.impl.UserDetailsServiceImpl  : Enterd into loadUserByUsername method
+2022-08-10 10:32:24.477  INFO 7696 --- [http-nio-2022-exec-6] l.l.service.impl.UserDetailsServiceImpl  : Enterd into loadUserByUsername method
+2022-08-10 10:32:24.518  INFO 7696 --- [http-nio-2022-exec-9] l.l.service.impl.UserDetailsServiceImpl  : Enterd into loadUserByUsername method
+2022-08-10 10:32:24.844  INFO 7696 --- [http-nio-2022-exec-2] l.l.service.impl.UserDetailsServiceImpl  : Enterd into loadUserByUsername method
+2022-08-10 10:32:24.844  INFO 7696 --- [http-nio-2022-exec-3] l.l.service.impl.UserDetailsServiceImpl  : Enterd into loadUserByUsername method
+2022-08-10 10:32:24.846  INFO 7696 --- [http-nio-2022-exec-4] l.l.service.impl.UserDetailsServiceImpl  : Enterd into loadUserByUsername method
+2022-08-10 10:32:24.847  INFO 7696 --- [http-nio-2022-exec-5] l.l.service.impl.UserDetailsServiceImpl  : Enterd into loadUserByUsername method
+2022-08-10 10:32:24.847  INFO 7696 --- [http-nio-2022-exec-8] l.l.service.impl.UserDetailsServiceImpl  : Enterd into loadUserByUsername method
+2022-08-10 10:32:24.874  INFO 7696 --- [http-nio-2022-exec-7] l.l.service.impl.UserDetailsServiceImpl  : Enterd into loadUserByUsername method
+2022-08-10 10:32:24.874  INFO 7696 --- [http-nio-2022-exec-6] l.l.service.impl.UserDetailsServiceImpl  : Enterd into loadUserByUsername method
+2022-08-10 10:33:01.336  INFO 7696 --- [http-nio-2022-exec-4] l.l.service.impl.UserDetailsServiceImpl  : Enterd into loadUserByUsername method
+2022-08-10 10:33:01.362  INFO 7696 --- [http-nio-2022-exec-2] l.l.service.impl.UserDetailsServiceImpl  : Enterd into loadUserByUsername method
