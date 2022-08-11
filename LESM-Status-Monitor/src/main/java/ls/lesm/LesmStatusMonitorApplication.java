@@ -10,15 +10,12 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.SpringServletContainerInitializer;
 
 @SpringBootApplication
-public class LesmStatusMonitorApplication extends SpringBootServletInitializer implements CommandLineRunner {
+public class LesmStatusMonitorApplication  implements CommandLineRunner {
 	@Autowired
 	private BCryptPasswordEncoder bCryptPasswordEncoder;
 	
 	
-	@Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(LesmStatusMonitorApplication.class);
-    }
+	
 	public static void main(String[] args) {
 		SpringApplication.run(LesmStatusMonitorApplication.class, args);
 		

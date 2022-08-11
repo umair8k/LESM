@@ -13,13 +13,13 @@
 	<groupId>com.example</groupId>
 	<artifactId>LESM-Status-Monitor</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-		<packaging>war</packaging>
+		<packaging>jar</packaging>
 	<name>LESM-Status-Monitor</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
-	 <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
+	<!--   <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>-->
 	</properties>
 	
 	
