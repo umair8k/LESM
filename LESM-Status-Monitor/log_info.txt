@@ -723,3 +723,16 @@ Caused by: java.sql.SQLSyntaxErrorException: Unknown database 'employees'
 2022-08-11 11:17:45.227  INFO 28236 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2022-08-11 11:17:45.229  INFO 28236 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2022-08-11 11:17:47.323  INFO 28236 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-08-11 12:21:32.519  INFO 29036 --- [http-nio-2022-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-11 12:21:32.528  INFO 29036 --- [http-nio-2022-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-11 12:21:32.587  INFO 29036 --- [http-nio-2022-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 56 ms
+2022-08-11 12:21:32.985  INFO 29036 --- [http-nio-2022-exec-2] ls.lesm.restcontroller.AuthController    : Enterd into generateToken method
+2022-08-11 12:21:33.062  INFO 29036 --- [http-nio-2022-exec-2] l.l.service.impl.UserDetailsServiceImpl  : Enterd into loadUserByUsername method
+2022-08-11 12:21:38.332  INFO 29036 --- [http-nio-2022-exec-3] ls.lesm.restcontroller.AuthController    : Enterd into generateToken method
+2022-08-11 12:21:38.333  INFO 29036 --- [http-nio-2022-exec-3] l.l.service.impl.UserDetailsServiceImpl  : Enterd into loadUserByUsername method
+2022-08-11 12:21:42.649  INFO 29036 --- [http-nio-2022-exec-4] ls.lesm.restcontroller.AuthController    : Enterd into generateToken method
+2022-08-11 12:21:42.649  INFO 29036 --- [http-nio-2022-exec-4] l.l.service.impl.UserDetailsServiceImpl  : Enterd into loadUserByUsername method
+2022-08-11 12:35:11.994  INFO 29036 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-08-11 12:35:12.145  INFO 29036 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-08-11 12:35:12.180  INFO 29036 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2022-08-11 12:35:14.354  INFO 29036 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
