@@ -23,3 +23,6 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: Execute Jar File
+      run: sudo kill -9 `sudo lsof -t -i:2022`  & sudo java -jar /home/ubuntu/actions-runner/_work/LESM/LESM/LESM-Status-Monitor/target/LESM-Status-Monitor-0.0.1-SNAPSHOT.jar &
+
